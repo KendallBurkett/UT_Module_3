@@ -1,6 +1,6 @@
 import csv
 
-file_path = '/Users/kendallburkett/Desktop/module_3_folder/module_3_challenge/PyPoll/Resources/election_data.csv'
+file_path = '/Users/kendallburkett/Desktop/module_3_challenge/PyPoll/Resources/election_data.csv'
 
 total_votes = 0
 candidates = {}
@@ -42,6 +42,6 @@ results += (
 
 print(results)
 
-output_file_path = '/Users/kendallburkett/Desktop/module_3_folder/module_3_challenge/PyPoll/Analysis/election_results.txt'
+output_file_path = '/Users/kendallburkett/Desktop/module_3_challenge/PyPoll/Analysis/election_results.txt'
 with open(output_file_path, 'w') as output_file:
     output_file.write(results)
