@@ -1,7 +1,7 @@
 import csv
 
 # Path to the CSV file
-file_path = '/Users/kendallburkett/Desktop/module_3_folder/module_3_challenge/PyBank/Resources/budget_data.csv'
+file_path = '/Users/kendallburkett/Desktop/module_3_challenge/PyBank/Resources/budget_data.csv'
 
 # Initialize variables
 total_months = 0
@@ -59,6 +59,6 @@ results = (
 print(results)
 
 # Export the results to a text file
-output_file_path = '/Users/kendallburkett/Desktop/module_3_folder/module_3_challenge/PyBank/Analysis/financial_analysis.txt'
+output_file_path = '/Users/kendallburkett/Desktop/module_3_challenge/PyBank/Analysis/financial_analysis.txt'
 with open(output_file_path, 'w') as output_file:
     output_file.write(results)
