@@ -1,4 +1,4 @@
-# Python
+## Python
 
 # Financial and Election Data Analysis
 
@@ -6,15 +6,16 @@
 - [Description](#description)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Author](#author)
 
+---
 
 ## Description
 
 **Financial and Election Data Analysis** is a Python-based project designed to process and analyze financial and election datasets. It produces summaries, including financial performance metrics (such as profit changes) and election results (vote counts, percentages, and winner identification).
 
 The analysis outputs results into user-friendly `.txt` summary files for easy review.
+
+---
 
 ## Features
 
@@ -28,6 +29,8 @@ The analysis outputs results into user-friendly `.txt` summary files for easy re
 
 - **Output Summaries**:
   - Results are saved as formatted text files for easy sharing and presentation.
+
+---
 
 ## Installation
 
@@ -48,17 +51,4 @@ The analysis outputs results into user-friendly `.txt` summary files for easy re
    - `budget_data.csv` - Contains monthly financial data.
    - `election_data.csv` - Contains voting results.
 
-## Usage
-
-Run the main Python script `main.py` to perform the analysis:
-
-```bash
-python main.py
-```
-
-## Author
-
-**Kendall Burkett**  
-https://github.com/KendallBurkett?tab=repositories
- 
-kbz1987@icloud.com
+---
