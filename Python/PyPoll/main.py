@@ -1,7 +1,7 @@
 import csv
 
 # Path to the CSV file
-file_path = '/Users/kendallburkett/Desktop/module_3_folder/module_3_challenge/PyPoll/Resources/election_data.csv'
+file_path = 'Resources/election_data.csv'
 
 # Initialize variables
 total_votes = 0
@@ -52,6 +52,6 @@ results += (
 print(results)
 
 # Export the results to a text file
-output_file_path = '/Users/kendallburkett/Desktop/module_3_folder/module_3_challenge/PyPoll/Analysis/election_results.txt'
+output_file_path = 'Analysis/election_results.txt'
 with open(output_file_path, 'w') as output_file:
     output_file.write(results)
